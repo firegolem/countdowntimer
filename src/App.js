@@ -12,7 +12,7 @@ export default class Countdown extends React.PureComponent {
     constructor(props, context) {
         super(props, context);
         this.state = {
-            timer_speed: 111111111111,
+            timer_speed: 1,
             is_playing: true,
             time_set: "",
             time_left : 0,
